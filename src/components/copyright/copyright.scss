@@ -1,0 +1,43 @@
+//  ==== copyright scss strarted here ====
+@import "../../global.scss";
+#copyright {
+  width: 1320px;
+  height: 92px;
+  background-color: $white;
+  margin: 0 305px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  p {
+    color: $popins;
+    font-family: $popins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .copyright__menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    margin-left: 567px;
+    li {
+      position: relative;
+      transition: 0.3s linear all;
+      &:hover {
+        .copyright__item{
+          color: $blue;
+        }
+      }
+      .copyright__item {
+        color: $txt__color;
+        font-family: $popins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-transform: capitalize;
+        transition: 0.3s linear all;
+      }
+    }
+  }
+}
+//  ==== copyright scss ended here ====

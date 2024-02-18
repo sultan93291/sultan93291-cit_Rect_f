@@ -1,0 +1,79 @@
+// ====  clients scss started here ====
+$manrope: "Manrope", sans-serif;
+$popins: "Poppins", sans-serif;
+$txt__color: #282938;
+$white: #fff;
+$tint__blue: rgba(28, 30, 83, 1);
+$yellow: #fcd980;
+$blue: rgba(82, 57, 250, 1);
+$common__btn_txt: #1b1c2b;
+#clients {
+  height: 506px;
+  position: relative;
+  background: rgba(244, 246, 252, 1);
+  .clients__wrapper {
+    height: auto;
+    width: 1310px;
+    position: absolute;
+    margin: 128px 305px;
+    display: flex;
+    flex-direction: row;
+    .client__heading {
+      width: 327px;
+      h2 {
+        color: $popins;
+        font-family: $popins;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 56px;
+        margin-bottom: 16px;
+      }
+    }
+    .client__contents {
+      margin-left: 110px;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        color: $txt__color;
+        font-family: $popins;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        width: 847px;
+        margin-top: 2px;
+      }
+    }
+    .client__info {
+      margin-top: 48px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .client__img {
+        width: 52px;
+        height: 52px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+      .client__soft_info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        h5 {
+          color: $txt__color;
+          font-family: $popins;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 32px;
+        }
+        span {
+          color: $txt__color;
+          font-family: $popins;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
+// ====  clients scss ende here  here ====

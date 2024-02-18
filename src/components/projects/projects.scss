@@ -1,0 +1,187 @@
+// ==== projects scss started here ====
+@import "../../global.scss";
+#projects {
+  height: 984px;
+  position: relative;
+  background-color: $white;
+  .projects__wrapper {
+    position: absolute;
+    width: 1310px;
+    height: auto;
+    margin: 128px 305px;
+    display: flex;
+    flex-direction: column;
+    .project__headings {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      h4 {
+        color: $txt__color;
+        font-family: $popins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        position: relative;
+        &::before {
+          content: "";
+          height: 22px;
+          width: 0;
+          position: absolute;
+          background-color: #000000ed;
+          margin-top: 4px;
+          left: 0;
+          transition: 0.3s linear all;
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+        }
+        &:hover::before {
+          width: 82%;
+        }
+      }
+    }
+    .projects__cards {
+      height: auto;
+      width: 100%;
+      margin-top: 79px;
+      .projects__single__card {
+        position: absolute;
+        z-index: 0;
+        &:nth-child(1) {
+          width: 843px;
+          height: 600px;
+          left: 0;
+          z-index: 0;
+          &::before {
+            content: "";
+            position: absolute;
+            height: 600px;
+            width: 396px;
+            background: linear-gradient(
+              329deg,
+              #1c1e53 -10.96%,
+              rgba(28, 30, 83, 0.42) 103.96%
+            );
+            z-index: 0;
+          }
+          .project__card__content {
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            height: auto;
+            width: 313px;
+            margin-top: 312px;
+            margin-left: 48px;
+            .card__heading {
+              color: $white;
+              font-family: $popins;
+              font-size: 24px;
+              font-weight: 600;
+              line-height: 36px;
+            }
+            p {
+              margin-top: 16px;
+              color: $white;
+              margin-bottom: 40px;
+            }
+            span {
+              color: $yellow;
+              font-family: $popins;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 28px;
+              &::before {
+                content: "";
+                height: 22px;
+                width: 0;
+                position: absolute;
+                background-color: $yellow;
+                margin-top: 4px;
+                left: 0;
+                transition: 0.3s linear all;
+              }
+              &:hover::before {
+                width: 32%;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+              }
+            }
+          }
+        }
+        &:nth-child(2) {
+          width: 405px;
+          height: 284px;
+          right: 0;
+          overflow: hidden;
+          &::before {
+            content: "";
+            position: absolute;
+            height: 284px;
+            width: 405px;
+            background: linear-gradient(
+              329deg,
+              #1c1e53 -10.96%,
+              rgba(28, 30, 83, 0.42) 103.96%
+            );
+            z-index: 0;
+          }
+          .project__card__content {
+            height: auto;
+            width: 313px;
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            margin-top: 129px;
+            margin-left: 56px;
+            .card__heading {
+              color: $white;
+              font-family: $popins;
+              font-size: 24px;
+              font-weight: 600;
+              line-height: 36px;
+              width: 213px;
+            }
+            span {
+              color: $yellow;
+              font-family: $popins;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 28px;
+              margin-top: 10px;
+              &::before {
+                content: "";
+                height: 22px;
+                width: 0;
+                position: absolute;
+                background-color: $yellow;
+                margin-top: 4px;
+                left: 0;
+                transition: 0.3s linear all;
+              }
+              &:hover::before {
+                width: 36%;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+              }
+            }
+          }
+        }
+        &:nth-child(3) {
+          width: 405px;
+          height: 284px;
+          right: 0;
+          overflow: hidden;
+          margin-top: 316px;
+        }
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}
+// ==== projects scss ende here  here ====

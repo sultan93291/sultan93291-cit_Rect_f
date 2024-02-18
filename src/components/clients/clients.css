@@ -1,0 +1,69 @@
+#clients {
+  height: 506px;
+  position: relative;
+  background: rgb(244, 246, 252);
+}
+#clients .clients__wrapper {
+  height: auto;
+  width: 1310px;
+  position: absolute;
+  margin: 128px 305px;
+  display: flex;
+  flex-direction: row;
+}
+#clients .clients__wrapper .client__heading {
+  width: 327px;
+}
+#clients .clients__wrapper .client__heading h2 {
+  color: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+#clients .clients__wrapper .client__contents {
+  margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+}
+#clients .clients__wrapper .client__contents h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  width: 847px;
+  margin-top: 2px;
+}
+#clients .clients__wrapper .client__info {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#clients .clients__wrapper .client__info .client__img {
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#clients .clients__wrapper .client__info .client__soft_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+#clients .clients__wrapper .client__info .client__soft_info h5 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#clients .clients__wrapper .client__info .client__soft_info span {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
+}

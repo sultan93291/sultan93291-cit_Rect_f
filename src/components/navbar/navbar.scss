@@ -1,0 +1,79 @@
+// ==== navbar scss started here ====
+@import "../../global.scss";
+#navbar {
+  height: 92px;
+  position: absolute;
+  z-index: 1;
+  .navbar__wrapper {
+    height: auto;
+    width: 1310px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 305px;
+    .navbar__logo {
+      position: relative;
+      width: 122px;
+      height: 28px;
+      overflow: hidden;
+      margin-top: 32px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .navbar__menu {
+      display: flex;
+      flex-direction: row;
+      column-gap: 32px;
+      margin-left: 452px;
+      margin-top: 32px;
+      li {
+        position: relative;
+        transition: 0.3s linear all;
+        &::after {
+          content: "";
+          position: absolute;
+          height: 5px;
+          width: 80%;
+          background-color: $blue;
+          bottom: 0;
+          left: 0;
+          border-radius: 50px;
+          opacity: 0;
+          transition: 0.3s linear all;
+          margin-left: 5px;
+        }
+        &:hover::after {
+          opacity: 1;
+        }
+        .navbar__menu__item {
+          color: $white;
+          font-family: $popins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .navbar__btn {
+      margin-left: 48px;
+      margin-top: 16px;
+      button {
+        width: 185px;
+        height: 60px;
+        color: $white;
+        font-family: $popins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        transition: 0.3s linear all;
+        padding: 0;
+        &:hover {
+          color: $common__btn_txt;
+        }
+      }
+    }
+  }
+}
+// ==== navbar scss ende here  here ====

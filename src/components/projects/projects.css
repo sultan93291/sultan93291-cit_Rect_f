@@ -1,0 +1,176 @@
+#projects {
+  height: 984px;
+  position: relative;
+  background-color: #fff;
+}
+#projects .projects__wrapper {
+  position: absolute;
+  width: 1310px;
+  height: auto;
+  margin: 128px 305px;
+  display: flex;
+  flex-direction: column;
+}
+#projects .projects__wrapper .project__headings {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#projects .projects__wrapper .project__headings h4 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  position: relative;
+}
+#projects .projects__wrapper .project__headings h4::before {
+  content: "";
+  height: 22px;
+  width: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9294117647);
+  margin-top: 4px;
+  left: 0;
+  transition: 0.3s linear all;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#projects .projects__wrapper .project__headings h4:hover::before {
+  width: 82%;
+}
+#projects .projects__wrapper .projects__cards {
+  height: auto;
+  width: 100%;
+  margin-top: 79px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card {
+  position: absolute;
+  z-index: 0;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) {
+  width: 843px;
+  height: 600px;
+  left: 0;
+  z-index: 0;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  height: 600px;
+  width: 396px;
+  background: linear-gradient(329deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  z-index: 0;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) .project__card__content {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  height: auto;
+  width: 313px;
+  margin-top: 312px;
+  margin-left: 48px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) .project__card__content .card__heading {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) .project__card__content p {
+  margin-top: 16px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) .project__card__content span {
+  color: #fcd980;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) .project__card__content span::before {
+  content: "";
+  height: 22px;
+  width: 0;
+  position: absolute;
+  background-color: #fcd980;
+  margin-top: 4px;
+  left: 0;
+  transition: 0.3s linear all;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(1) .project__card__content span:hover::before {
+  width: 32%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2) {
+  width: 405px;
+  height: 284px;
+  right: 0;
+  overflow: hidden;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  height: 284px;
+  width: 405px;
+  background: linear-gradient(329deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  z-index: 0;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2) .project__card__content {
+  height: auto;
+  width: 313px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  margin-top: 129px;
+  margin-left: 56px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2) .project__card__content .card__heading {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 213px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2) .project__card__content span {
+  color: #fcd980;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 10px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2) .project__card__content span::before {
+  content: "";
+  height: 22px;
+  width: 0;
+  position: absolute;
+  background-color: #fcd980;
+  margin-top: 4px;
+  left: 0;
+  transition: 0.3s linear all;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(2) .project__card__content span:hover::before {
+  width: 36%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card:nth-child(3) {
+  width: 405px;
+  height: 284px;
+  right: 0;
+  overflow: hidden;
+  margin-top: 316px;
+}
+#projects .projects__wrapper .projects__cards .projects__single__card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}

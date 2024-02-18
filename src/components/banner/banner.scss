@@ -1,0 +1,55 @@
+// ==== common scss started here ====
+@import "../../global.scss";
+#banner {
+  position: relative;
+  height: 760px;
+  background-color: $tint__blue;
+  z-index: 0;
+  .banner__wrapper {
+    height: auto;
+    width: 1310px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 305px;
+    margin-top: 218px;
+    position: absolute;
+    .banner__contents {
+      display: flex;
+      flex-direction: column;
+      .main__heading {
+        width: 582px;
+        color: $white;
+        font-family: $popins;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+      }
+      p {
+        color: $white;
+        margin-top: 24px;
+        width: 562px;
+      }
+      .banner__btn {
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        margin-top: 48px;
+        button {
+          &:nth-child(2) {
+            border: 2px solid transparent;
+          }
+        }
+      }
+    }
+    .banner__img {
+      width: 638px;
+      height: 361.115px;
+      margin-left: 60px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+// ==== common scss ende here  here ====

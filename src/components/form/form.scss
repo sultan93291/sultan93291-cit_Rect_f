@@ -1,0 +1,129 @@
+// ==== form scss started here ====
+@import "../../global.scss";
+#form {
+  height: 947px;
+  position: relative;
+  .form__wrapper {
+    position: absolute;
+    height: auto;
+    width: 1310px;
+    margin: 128px 305px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1e53;
+    .form__banner {
+      width: 656px;
+      height: 691px;
+      overflow: hidden;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 656px;
+        height: 691px;
+        background: rgba(28, 30, 83, 0.5);
+        left: 0;
+        z-index: 0;
+      }
+      .form__banner__content {
+        height: auto;
+        width: 464px;
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        margin-top: 96px;
+        margin-left: 96px;
+        .banner__form__heading {
+          color: $white;
+          font-family: $popins;
+          font-size: 54px;
+          font-weight: 600;
+          line-height: 74px;
+        }
+        p {
+          font-weight: 500;
+          color: $white;
+          margin-top: 24px;
+        }
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .form__contents {
+      display: flex;
+      flex-direction: column;
+      margin-top: 96px;
+      margin-left: 96px;
+      .form__heading {
+        color: $white;
+        font-family: $popins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+      }
+      p {
+        color: $white;
+        width: 432px;
+        margin-top: 16px;
+      }
+      .form__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;
+        input {
+          width: 432px;
+          height: 64px;
+          border-radius: 8px;
+          border: 1.5px solid rgba(255, 255, 255, 0.05);
+          margin-bottom: 16px;
+          background: #1b1c2b0a;
+          outline: none;
+          align-items: center;
+          padding: 0 32px;
+          color: #f4f6fc;
+          font-family: $popins;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+          opacity: 0.5;
+          text-transform: capitalize;
+        }
+        button {
+          margin-top: 24px;
+          width: 432px;
+          opacity: 0.7;
+        }
+        span {
+          margin-top: 28px;
+          color: $white;
+          font-family: $popins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px;
+          position: relative;
+          &::before {
+            content: "";
+            height: 22px;
+            width: 0;
+            position: absolute;
+            background-color: $white;
+            margin-top: 6px;
+            left: 0;
+            transition: 0.3s linear all;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+          }
+          &:hover::before {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+}
+// ==== form scss ende here  here ====

@@ -1,0 +1,72 @@
+// ==== features scss started here ====
+@import "../../global.scss";
+#features {
+  height: 1191px;
+  position: relative;
+  background: #f4f6fc;
+  .features__wrapper {
+    height: auto;
+    width: 1310px;
+    position: absolute;
+    margin: 128px 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .features__headings {
+      align-items: center;
+      width: 630px;
+      h4 {
+        color: $txt__color;
+        text-align: center;
+        font-family: $popins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 12px;
+      }
+    }
+    .features__cards {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 47px;
+      column-gap: 32px;
+      row-gap: 24px;
+      .feature__single__card {
+        width: 405px;
+        height: 316px;
+        display: flex;
+        flex-direction: column;
+        background-color: $white;
+        img {
+          margin-top: 58px;
+          margin-left: 48px;
+          height: 35px;
+          width: 35px;
+          object-fit: cover;
+        }
+        h2 {
+          color: $txt__color;
+          width: 314.748px;
+          font-family: $popins;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 36px;
+          margin-top: 22px;
+          margin-left: 48px;
+        }
+        p {
+          width: 324px;
+          margin-top: 12px;
+          margin-left: 48px;
+        }
+      }
+    }
+  }
+}
+// ==== features scss ende here  here ====

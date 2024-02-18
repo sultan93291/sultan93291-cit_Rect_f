@@ -1,0 +1,50 @@
+#banner {
+  position: relative;
+  height: 760px;
+  background-color: rgb(28, 30, 83);
+  z-index: 0;
+}
+#banner .banner__wrapper {
+  height: auto;
+  width: 1310px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 305px;
+  margin-top: 218px;
+  position: absolute;
+}
+#banner .banner__wrapper .banner__contents {
+  display: flex;
+  flex-direction: column;
+}
+#banner .banner__wrapper .banner__contents .main__heading {
+  width: 582px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+#banner .banner__wrapper .banner__contents p {
+  color: #fff;
+  margin-top: 24px;
+  width: 562px;
+}
+#banner .banner__wrapper .banner__contents .banner__btn {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  margin-top: 48px;
+}
+#banner .banner__wrapper .banner__contents .banner__btn button:nth-child(2) {
+  border: 2px solid transparent;
+}
+#banner .banner__wrapper .banner__img {
+  width: 638px;
+  height: 361.115px;
+  margin-left: 60px;
+}
+#banner .banner__wrapper .banner__img img {
+  height: 100%;
+  width: 100%;
+}
